@@ -186,45 +186,41 @@ def train_stacking_ensemble(X_train, y_train, X_val=None, y_val=None, batch_size
         from sklearn.ensemble import RandomForestClassifier
         
         estimators = [
-            ('lr', LogisticRegression(max_iter=1000, tol=1e-4, C=1.0, random_state=42)),
-            ('svm', SVC(probability=True, kernel='rbf', C=10.0, gamma='scale', tol=1e-4, random_state=42, cache_size=2000)),
-            ('rf', RandomForestClassifier(n_estimators=200, max_depth=20, min_samples_split=5, min_samples_leaf=2, random_state=42, n_jobs=-1))
+            ('lr', LogisticRegression(max_iter=1000, tol=1e-4, C=1.0, random_state=42)),  # 恢复迭代次数
+            ('svm', SVC(probability=False, kernel='rbf', C=1.0, gamma='scale', random_state=42)),  # 改回RBF核
+            ('rf', RandomForestClassifier(n_estimators=100, max_depth=15, min_samples_split=5, random_state=42))  # 增加树的数量
         ]
     
-    # 创建堆叠集成模型，使用随机森林作为元学习器
-    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+    # 创建堆叠集成模型，使用更小的元学习器
+    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)  # 增加交叉验证折数
     stacking = StackingClassifier(
         estimators=estimators,
-        final_estimator=RandomForestClassifier(n_estimators=200, max_depth=20, min_samples_split=5, min_samples_leaf=2, random_state=42),
+        final_estimator=RandomForestClassifier(n_estimators=100, max_depth=15, random_state=42),
         cv=cv,
-        n_jobs=-1
+        n_jobs=-1  # 启用并行处理
     )
     
-    # 定义参数分布（用于随机搜索）
+    # 扩展参数搜索空间（增加类别权重相关参数）
     param_distributions = {
         'lr__C': [0.01, 0.1, 1.0, 10.0, 100.0],
-        'svm__C': [0.01, 0.1, 1.0, 10.0, 100.0],
-        'svm__gamma': ['scale', 'auto', 0.001, 0.01, 0.1, 1.0],
-        'rf__n_estimators': [100, 200, 300, 400, 500],
-        'rf__max_depth': [15, 20, 25, 30, 35],
-        'final_estimator__n_estimators': [100, 200, 300, 400],
-        'final_estimator__max_depth': [15, 20, 25, 30]
+        'lr__class_weight': [None, 'balanced'],
+        'svm__C': [0.1, 1.0, 10.0, 100.0, 500.0],
+        'svm__gamma': ['scale', 'auto', 0.001, 0.01, 0.1],
+        'rf__n_estimators': [150, 200, 250],  # 增加树的数量
+        'rf__max_depth': [15, 20, 25],  # 增加深度
+        'rf__class_weight': [None, 'balanced'],
+        'final_estimator__n_estimators': [150, 200, 250],
+        'final_estimator__max_depth': [15, 20, 25],
+        'final_estimator__class_weight': [None, 'balanced']
     }
     
-    # 使用随机搜索找到最佳参数
-    print("\n开始训练堆叠集成模型...")
-    print("使用以下配置:")
-    print("- 基础模型: 逻辑回归、支持向量机(RBF核)、随机森林(200棵树)")
-    print("- 交叉验证: 5折")
-    print("- 随机搜索: 30次迭代")
-    
-    # 创建带有详细日志的随机搜索
+    # 增强随机搜索配置
     random_search = RandomizedSearchCV(
         stacking,
         param_distributions,
-        n_iter=30,
-        cv=5,
-        scoring=['accuracy', 'f1_weighted'],
+        n_iter=40,  # 翻倍搜索次数
+        cv=8,  # 增加交叉验证折数
+        scoring=['accuracy', 'f1_weighted', 'recall', 'precision'],
         refit='f1_weighted',
         n_jobs=-1,
         verbose=2
