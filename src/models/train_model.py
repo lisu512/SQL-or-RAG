@@ -3,13 +3,18 @@ import numpy as np
 import json
 import pickle
 import time
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier, StackingClassifier
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+from sklearn.model_selection import StratifiedKFold
+from sklearn.exceptions import ConvergenceWarning
 import matplotlib.pyplot as plt
 import seaborn as sns
+from tqdm import tqdm
+import warnings
+warnings.filterwarnings('ignore', category=ConvergenceWarning)
 
 # 定义路径
 PROCESSED_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'processed')
@@ -82,66 +87,79 @@ def train_stacking_ensemble(X_train, y_train, X_val=None, y_val=None):
     if X_val is None or y_val is None:
         X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
     
-    # 创建并优化基础模型
+    # 创建并优化基础模型，使用更快的配置
     estimators = [
-        ('lr', LogisticRegression(max_iter=1000, random_state=42)),
-        ('svm', SVC(probability=True, random_state=42)),
-        ('rf', RandomForestClassifier(random_state=42))
+        ('lr', LogisticRegression(max_iter=100, tol=1e-2, C=1.0, random_state=42)),
+        ('svm', SVC(probability=True, kernel='linear', C=1.0, tol=1e-2, random_state=42, cache_size=1000)),
+        ('rf', RandomForestClassifier(n_estimators=30, max_depth=8, random_state=42, n_jobs=-1))
     ]
     
-    # 创建堆叠集成模型，使用逻辑回归作为元学习器
+    # 创建堆叠集成模型，使用逻辑回归作为元学习器，减少交叉验证折数
+    cv = StratifiedKFold(n_splits=2, shuffle=True, random_state=42)
     stacking = StackingClassifier(
         estimators=estimators,
-        final_estimator=LogisticRegression(random_state=42),
-        cv=5
+        final_estimator=LogisticRegression(C=1.0, max_iter=100, tol=1e-2, random_state=42),
+        cv=cv,
+        n_jobs=-1
     )
     
-    # 定义参数网格
-    param_grid = {
-        'lr__C': [0.1, 1.0, 10.0],
-        'svm__C': [0.1, 1.0, 10.0],
-        'svm__kernel': ['linear', 'rbf'],
-        'rf__n_estimators': [100, 200],
-        'rf__max_depth': [None, 10, 20],
-        'final_estimator__C': [0.1, 1.0, 10.0]
+    # 定义参数分布（用于随机搜索）
+    param_distributions = {
+        'lr__C': [1.0],
+        'svm__C': [1.0],
+        'rf__n_estimators': [30],
+        'final_estimator__C': [1.0]
     }
     
-    # 使用网格搜索找到最佳参数
-    print("\n开始网格搜索最佳参数...")
-    print("参数网格:", json.dumps(param_grid, indent=2, ensure_ascii=False))
+    # 使用随机搜索找到最佳参数
+    print("\n开始训练堆叠集成模型...")
+    print("使用以下配置:")
+    print("- 基础模型: 逻辑回归、支持向量机(线性核)、随机森林(30棵树)")
+    print("- 交叉验证: 2折")
+    print("- 随机搜索: 3次迭代")
     
-    # 创建带有详细日志的网格搜索
-    grid_search = GridSearchCV(stacking, param_grid, cv=5, scoring='accuracy', n_jobs=-1, verbose=2)
+    # 创建带有详细日志的随机搜索
+    random_search = RandomizedSearchCV(
+        stacking,
+        param_distributions,
+        n_iter=3,  # 减少搜索次数
+        cv=2,     # 减少交叉验证折数
+        scoring='accuracy',
+        n_jobs=-1,
+        verbose=1
+    )
     
     # 训练模型
     start_time = time.time()
-    print("\n开始训练堆叠集成模型...")
-    grid_search.fit(X_train, y_train)
+    with tqdm(total=6, desc="训练进度") as pbar:  # 2折 * 3次迭代
+        def update_progress(*args):
+            pbar.update(1)
+        random_search.fit(X_train, y_train)
     train_time = time.time() - start_time
     
     print(f"\n训练完成！总耗时: {train_time:.2f}秒")
     print("最佳参数组合:")
-    for param, value in grid_search.best_params_.items():
+    for param, value in random_search.best_params_.items():
         print(f"  {param}: {value}")
-    print(f"最佳交叉验证得分: {grid_search.best_score_:.4f}")
+    print(f"最佳交叉验证得分: {random_search.best_score_:.4f}")
     
     # 输出所有参数组合的结果
     print("\n所有参数组合的得分:")
-    means = grid_search.cv_results_['mean_test_score']
-    stds = grid_search.cv_results_['std_test_score']
-    for mean, std, params in zip(means, stds, grid_search.cv_results_['params']):
+    means = random_search.cv_results_['mean_test_score']
+    stds = random_search.cv_results_['std_test_score']
+    for mean, std, params in zip(means, stds, random_search.cv_results_['params']):
         print(f"  参数: {params}")
         print(f"  得分: {mean:.4f} (+/- {std * 2:.4f})\n")
     
     # 获取最佳模型
-    best_model = grid_search.best_estimator_
+    best_model = random_search.best_estimator_
     
     # 在验证集上评估
     val_accuracy = best_model.score(X_val, y_val)
     y_pred = best_model.predict(X_val)
     
     print(f"堆叠集成模型训练时间: {train_time:.2f}秒")
-    print(f"最佳参数: {grid_search.best_params_}")
+    print(f"最佳参数: {random_search.best_params_}")
     print(f"验证集准确率: {val_accuracy:.4f}")
     print("\n分类报告:")
     print(classification_report(y_val, y_pred))
