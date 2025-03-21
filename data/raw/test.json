@@ -1,0 +1,4002 @@
+[
+  {
+    "query": "公司的年终奖发放标准是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的健康保险政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何向IT部门报告技术问题",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "sql"
+  },
+  {
+    "query": "公司各部门的人数分布情况是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "战略规划部门的实习生平均薪资是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何预订公司的会议室",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2019年的财务报表显示了什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "分析法务部门2019年至2019年的人员变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "分析运营部门2020年的绩效考核结果",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2020年的培训预算使用了多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "rag"
+  },
+  {
+    "query": "计算战略规划部门2018年的人均培训时长",
+    "intent": "sql"
+  },
+  {
+    "query": "供应链部门2020年的人员流动率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请调岗",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的试用期政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "统计培训发展部门2023年各季度的业绩波动",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "比较市场营销部门和市场营销部门的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2018年不同产品线的销售占比",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "请问公司的病假政策是怎么规定的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "统计2020年公司的收入构成",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "rag"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "计算公司2018年的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的VPN如何连接",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "去年第四季度的销售额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司工程师的晋升周期",
+    "intent": "sql"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "rag"
+  },
+  {
+    "query": "公司各部门的人数分布情况是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "查询一下行政部门的主要项目进展",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的健康保险政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的技术栈包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2018年的税收支出是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "计算物流部门2023年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的试用期政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2024年不同产品线的销售占比",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "sql"
+  },
+  {
+    "query": "计算安全部门2019年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "内审部门的项目完成率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何预订公司的会议室",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司测试员的晋升周期",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年度体检政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "给我统计一下公司各部门的人均薪资",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "对比经理和经理在各部门的薪资差异",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的健康保险政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "我需要知道质量控制部门的预算执行情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "能告诉我公司的发展历史吗",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的晋升机制是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2018年的培训预算使用了多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的休假政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "查询销售部门的管理层结构",
+    "intent": "sql"
+  },
+  {
+    "query": "计算培训发展部门2018年的人均培训时长",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "统计一下公关部门的男女比例",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2019年的营业额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公室布局图在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "统计公司2020年的研发投入占比",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "sql"
+  },
+  {
+    "query": "查看培训发展部门2024年的客户满意度",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的试用期政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2024年的营业额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "请问2019年第二季度的销售额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "统计一下内审部门的男女比例",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年度体检政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "查看行政部门2023年的客户满意度",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "我需要知道质量控制部门的预算执行情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司质量控制部门的绩效最高的员工是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "rag"
+  },
+  {
+    "query": "查询一下法务部门的主要项目进展",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解一下人力资源部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "我需要知道行政部门的预算执行情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的VPN如何连接",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的试用期政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的核心价值观是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的安全出口在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "分析2022年和2022年公司营收的变化趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2019年招聘了多少名新员工",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司各部门的人才流失率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "分析2022年和2022年公司营收的变化趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2019年的营业额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我对比一下各部门2022年的业绩",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的电子签名系统",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的数据安全政策有哪些规定",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "我想看看公司技术员的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年终奖发放标准是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的试用期政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2019年的营业额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "给我看看公关部门的组织架构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "rag"
+  },
+  {
+    "query": "查询经理在各部门的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的休假政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "计算客户服务部门2023年的人均加班时长",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "sql"
+  },
+  {
+    "query": "计算财务部门2023年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2018年的财务报表显示了什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "rag"
+  },
+  {
+    "query": "对比供应链部门和供应链部门的项目成功率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的技术栈包括哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "sql"
+  },
+  {
+    "query": "公司客户服务部门的主管是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2018年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "比较采购部门和采购部门的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "查询销售部门2018年的人员构成",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的发展历史是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我对比一下各部门2019年的业绩",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "sql"
+  },
+  {
+    "query": "分析设计部门的年龄结构",
+    "intent": "sql"
+  },
+  {
+    "query": "帮忙分析下2018年公司的业绩趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "rag"
+  },
+  {
+    "query": "分析供应链部门2021年的成本结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的人工客服电话号码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "计算公司2021年的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的工作时间是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "查询研究员在各部门的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "查询内审部门的管理层结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "比较研发部门和研发部门的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的工作时间是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2020年的营业额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司各部门的人数分布情况是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我2023年公司的盈利情况吗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年终奖发放标准是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "公司战略规划部门的主管是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2022年各季度的利润率变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的产品线包括哪些产品",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年终奖发放标准是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2021年的税收支出是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2022年的培训预算使用了多少",
+    "intent": "sql"
+  },
+  {
+    "query": "分析市场营销部门2022年的项目成功率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请调岗",
+    "intent": "rag"
+  },
+  {
+    "query": "公司内审部门的主管是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "计算公司2018年的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的电子签名系统",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "rag"
+  },
+  {
+    "query": "分析销售部门2023年至2023年的人员变化",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的技术栈包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "rag"
+  },
+  {
+    "query": "统计公司各部门的人才流失率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2019年的税收支出是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请调岗",
+    "intent": "rag"
+  },
+  {
+    "query": "统计公司2022年各部门的预算使用情况",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2024年招聘了多少名新员工",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我2023年公司的盈利情况吗",
+    "intent": "sql"
+  },
+  {
+    "query": "计算物流部门2022年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请调岗",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "sql"
+  },
+  {
+    "query": "查询信息技术部门的管理层结构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "计算客户成功部门专员的平均工作年限",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的电子签名系统",
+    "intent": "rag"
+  },
+  {
+    "query": "麻烦查一下物流部门讲师的绩效如何",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机和复印机",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2021年的员工离职率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "rag"
+  },
+  {
+    "query": "公司目前有多少名开发者职位的员工",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "rag"
+  },
+  {
+    "query": "安全部门2019年的人员流动率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "查询一下行政部门的主要项目进展",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的数据安全政策有哪些规定",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请调岗",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下市场营销部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "计算市场营销部门助理的平均工作年限",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "能告诉我公司的发展历史吗",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "产品部门的项目数量是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "sql"
+  },
+  {
+    "query": "培训发展部门的平均工资是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "查询运营部门的管理层结构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "sql"
+  },
+  {
+    "query": "请问2024年第二季度的销售额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "计算财务部门2019年的人均培训时长",
+    "intent": "sql"
+  },
+  {
+    "query": "帮我对比一下各部门2023年的业绩",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的办公室布局图在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "计算设计部门2023年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "分析销售部门技术员的工作效率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司各部门的人才流失率",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我2021年公司的盈利情况吗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "查一下客户成功部门2020年新招聘了多少人",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的VPN如何连接",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2023年的员工离职率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的电子签名系统",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "分析公关部门2020年至2020年的人员变化",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司2018年的研发投入占比",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的健康保险政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "分析公司2020年各月度的收入支出情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的晋升机制是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司各部门的人才流失率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "sql"
+  },
+  {
+    "query": "对比助理和助理在各部门的薪资差异",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的健康保险政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的使命和愿景是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的休假政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的数据安全政策有哪些规定",
+    "intent": "rag"
+  },
+  {
+    "query": "给我看看国际业务部门的组织架构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "分析设计部门专员的工作效率",
+    "intent": "sql"
+  },
+  {
+    "query": "分析2024年公司的季度业绩波动",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "给我统计一下公司各部门的人均薪资",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2018年不同产品线的销售占比",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "统计法务部门2022年各季度的业绩波动",
+    "intent": "sql"
+  },
+  {
+    "query": "公司员工的平均年龄是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "比较国际业务部门和国际业务部门的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "公司各职级的薪资范围是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2021年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2018年的培训预算使用了多少",
+    "intent": "sql"
+  },
+  {
+    "query": "人力资源部门2022年第二季度的业绩如何",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "sql"
+  },
+  {
+    "query": "国际业务部门的项目数量是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司各部门的人才流失率",
+    "intent": "sql"
+  },
+  {
+    "query": "分析2019年和2019年公司营收的变化趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的休假政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "计算供应链部门测试员的平均工作年限",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的数据安全政策有哪些规定",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年终奖发放标准是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的快递收发服务",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的休假政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "公司人力资源部门的男女比例是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "分析公司2021年各月度的收入支出情况",
+    "intent": "sql"
+  },
+  {
+    "query": "安全部门2019年第四季度的业绩如何",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "分析战略规划部门的年龄结构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请调岗",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "统计公司2023年各部门的预算使用情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2018年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我公司的发展历史吗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的安全出口在哪里",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "sql"
+  },
+  {
+    "query": "查询一下信息技术部门的主要项目进展",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机和复印机",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "查询测试员在各部门的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "分析销售部门2022年的项目成功率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司2021年的财务报表显示了什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "查看行政部门2023年的客户满意度",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "查询一下培训发展部门的主要项目进展",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司有哪些福利待遇",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "能告诉我公司的发展历史吗",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "计算公司2020年的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2020年的产品销量排名",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的地址在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司各部门的人数分布情况是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "统计供应链部门不同职级的人员占比",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2023年各季度的利润率变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何向IT部门报告技术问题",
+    "intent": "rag"
+  },
+  {
+    "query": "我想看看公司技术员的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司有哪些福利待遇",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的安全出口在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "分析产品部门2018年的成本结构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的打印机和复印机",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司各职级的薪资范围是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "rag"
+  },
+  {
+    "query": "对比战略规划部门和战略规划部门的项目成功率",
+    "intent": "sql"
+  },
+  {
+    "query": "我需要知道国际业务部门的预算执行情况",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我公司的发展历史吗",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的晋升机制是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2020年不同产品线的销售占比",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "公司采购部门的男女比例是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的工作时间是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "rag"
+  },
+  {
+    "query": "计算采购部门2023年的人均培训时长",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "sql"
+  },
+  {
+    "query": "查看安全部门2021年的客户满意度",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "rag"
+  },
+  {
+    "query": "请问公司的病假政策是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "分析2024年和2024年公司营收的变化趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "财务部门2023年的人员流动率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "帮忙分析下2022年公司的业绩趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公室布局图在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的共享单车福利",
+    "intent": "rag"
+  },
+  {
+    "query": "统计公司2022年的市场份额变化",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "sql"
+  },
+  {
+    "query": "物流部门的项目数量是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司2020年的客户增长率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我对比一下各部门2021年的业绩",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "查一下研发部门2023年新招聘了多少人",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转岗",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司2021年的客户增长率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "sql"
+  },
+  {
+    "query": "计算国际业务部门2020年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的快递收发服务",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下战略规划部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "给我看看财务部门的组织架构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的主要竞争对手有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "sql"
+  },
+  {
+    "query": "请问公司的病假政策是怎么规定的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "sql"
+  },
+  {
+    "query": "公司各部门的人数分布情况是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解公司的晋升通道",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解一下研发部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的快递收发服务",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "比较设计部门和设计部门的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的安全出口在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年度体检政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2021年各季度的利润率变化",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "计算公司2021年的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "请问2020年第四季度的销售额是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "财务部门的开发者平均薪资是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司各部门的人才流失率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "能告诉我2018年公司的盈利情况吗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司各职级的薪资范围是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何向IT部门报告技术问题",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的数据安全政策有哪些规定",
+    "intent": "rag"
+  },
+  {
+    "query": "查询一下数据分析部门的主要项目进展",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司有哪些福利待遇",
+    "intent": "rag"
+  },
+  {
+    "query": "麻烦查一下物流部门分析师的绩效如何",
+    "intent": "sql"
+  },
+  {
+    "query": "查看客户服务部门2019年的客户满意度",
+    "intent": "sql"
+  },
+  {
+    "query": "公司目前有多少名技术员职位的员工",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "培训发展部门2020年第二季度的业绩如何",
+    "intent": "sql"
+  },
+  {
+    "query": "帮我对比一下各部门2020年的业绩",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的专利申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "请问公司的病假政策是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2024年的培训预算使用了多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的技术栈包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "分析数据分析部门顾问的工作效率",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的打卡时间是几点到几点",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "计算市场营销部门2022年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "计算公关部门2022年的投资回报率",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我对比一下各部门2020年的业绩",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司2023年的研发投入占比",
+    "intent": "sql"
+  },
+  {
+    "query": "给我统计一下公司各部门的人均薪资",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司2023年的市场份额变化",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "sql"
+  },
+  {
+    "query": "财务部门2024年的人员流动率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "sql"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的VPN如何连接",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "rag"
+  },
+  {
+    "query": "公司员工的平均年龄是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "查询总监在各部门的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "sql"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "行政部门的项目数量是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的主要竞争对手有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参加公司的技术分享会",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "请问公司的病假政策是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我看看国际业务部门2021年的员工数量变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下内审部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "统计公司2021年的研发投入占比",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司员工的平均年龄是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年度体检政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "分析安全部门2021年至2021年的人员变化",
+    "intent": "sql"
+  },
+  {
+    "query": "分析公关部门2020年的绩效考核结果",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的健康保险政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司邮箱密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的产品线包括哪些产品",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的电子签名系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的技术栈包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "查询组长在各部门的分布情况",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的安全出口在哪里",
+    "intent": "sql"
+  },
+  {
+    "query": "统计一下人力资源部门的男女比例",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的工作时间是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "我需要知道设计部门的预算执行情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的绩效奖金如何计算",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司设计部门的绩效最高的员工是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2018年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "市场营销部门2021年的人员流动率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2021年的产品销量排名",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2019年招聘了多少名新员工",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的办公室布局图在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "分析国际业务部门的年龄结构",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我2022年公司的盈利情况吗",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "sql"
+  },
+  {
+    "query": "能告诉我公司的发展历史吗",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "rag"
+  },
+  {
+    "query": "统计公司2023年各部门的预算使用情况",
+    "intent": "sql"
+  },
+  {
+    "query": "分析客户服务部门2023年的绩效考核结果",
+    "intent": "sql"
+  },
+  {
+    "query": "计算内审部门专员的平均工作年限",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的考勤制度是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2022年的产品销量排名",
+    "intent": "sql"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的打印机和复印机",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "市场营销部门的平均工资是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2020年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "rag"
+  },
+  {
+    "query": "统计一下财务部门的男女比例",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的技术栈包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我查一下公司的技术发展路线",
+    "intent": "sql"
+  },
+  {
+    "query": "公司销售部门的主管是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2024年不同产品线的销售占比",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的产品线包括哪些产品",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的社会责任项目",
+    "intent": "rag"
+  },
+  {
+    "query": "比较研发部门和研发部门的人均产值",
+    "intent": "sql"
+  },
+  {
+    "query": "给我统计一下公司各部门的人均薪资",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌标识使用指南",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司主管的晋升周期",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的信息安全培训内容是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的品牌资源和素材",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司提供的教育补贴",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的办公室布局图在哪里可以找到",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的电子签名系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "如何重置公司内部系统密码",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的团队建设活动有哪些",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工心理健康支持项目有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的创始人是谁",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司设计师的晋升周期",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的防火演习流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "研发部门的项目数量是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "设计部门2020年第二季度的业绩如何",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的会议预订系统",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的服务器维护时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的紧急联系人是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "rag"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "rag"
+  },
+  {
+    "query": "如何提交产品改进建议",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年度体检政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "物流部门的项目完成率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "分析供应链部门2021年至2021年的人员变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的打印机和复印机",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的试用期政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的绩效评估周期是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的数据安全政策有哪些规定",
+    "intent": "sql"
+  },
+  {
+    "query": "请问公司的病假政策是怎么规定的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司目前有多少名研究员职位的员工",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的WiFi密码是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "帮忙分析下2022年公司的业绩趋势",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的主要竞争对手有哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "人力资源部门的项目完成率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "给我看看法务部门的组织架构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的差旅报销流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班餐补政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2022年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "我想了解一下运营部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的保密协议内容是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下运营部门的人员结构",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "我想了解一下公司的企业文化",
+    "intent": "sql"
+  },
+  {
+    "query": "市场营销部门的测试员平均薪资是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的员工福利包括哪些内容",
+    "intent": "rag"
+  },
+  {
+    "query": "我需要知道运营部门的预算执行情况",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的加班补偿政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请在家办公",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "sql"
+  },
+  {
+    "query": "分析数据分析部门的年龄结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的知识产权保护政策是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的办公用品申请流程是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参与公司的创新项目",
+    "intent": "sql"
+  },
+  {
+    "query": "公司有哪些福利待遇",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司开发者的晋升周期",
+    "intent": "sql"
+  },
+  {
+    "query": "如何获取公司的产品折扣",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的内部沟通工具",
+    "intent": "sql"
+  },
+  {
+    "query": "给我统计一下公司各部门的人均薪资",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的技术栈主要包括哪些",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的环保政策有哪些内容",
+    "intent": "sql"
+  },
+  {
+    "query": "我想知道公司的培训体系",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司2021年各季度的利润率变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的法定节假日调休",
+    "intent": "rag"
+  },
+  {
+    "query": "如何参加公司组织的培训课程",
+    "intent": "rag"
+  },
+  {
+    "query": "分析公司2024年各月度的收入支出情况",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的云盘系统",
+    "intent": "rag"
+  },
+  {
+    "query": "公司设计部门的主管是谁",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "查询公司组长的晋升周期",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的内部转账",
+    "intent": "rag"
+  },
+  {
+    "query": "帮我看看物流部门2023年的员工数量变化",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的报销流程",
+    "intent": "rag"
+  },
+  {
+    "query": "如何加入公司的员工俱乐部",
+    "intent": "rag"
+  },
+  {
+    "query": "查询客户服务部门的管理层结构",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的员工手册在哪里可以找到",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的打印机扫描功能",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的内部知识库",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请公司的学习资源",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年终奖发放标准是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "如何使用公司的快递收发服务",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的IT支持电话是多少",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的餐厅营业时间是什么时候",
+    "intent": "rag"
+  },
+  {
+    "query": "公司2022年的员工离职率是多少",
+    "intent": "sql"
+  },
+  {
+    "query": "查询公司2021年的国内外市场销售比例",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的晋升机制是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "如何申请带薪休假",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的远程工作政策是怎样的",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的年会一般什么时候举行",
+    "intent": "sql"
+  },
+  {
+    "query": "公司的年度体检政策是什么",
+    "intent": "sql"
+  },
+  {
+    "query": "设计部门2020年第三季度的业绩如何",
+    "intent": "sql"
+  },
+  {
+    "query": "如何申请公司的资源访问权限",
+    "intent": "sql"
+  },
+  {
+    "query": "如何使用公司的健身房设施",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的停车场在哪里",
+    "intent": "rag"
+  },
+  {
+    "query": "公司的股票代码是什么",
+    "intent": "rag"
+  },
+  {
+    "query": "分析销售部门2021年至2021年的人员变化",
+    "intent": "sql"
+  },
+  {
+    "query": "物流部门2022年第一季度的业绩如何",
+    "intent": "sql"
+  }
+]
